@@ -1,13 +1,12 @@
 ---
-title: "My title"
+title: "Understanding Suicide Rates: Exploring Gender and Age Patterns That Lead to Various Risk Factors Associated with Suicidal Behaviour"
 subtitle: "My subtitle if needed"
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: LINK."
+  - Sarah Lee
+thanks: "Code and data are available at: https://github.com/sarahhhh02/final-paper.git"
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "This paper utilizes data from Statistics Canada, retrieving data related to the Suicide Rates. Analysing the relationship with gender, it is shown that suicide rates tend to be higher in male rather than female. However, suicide rates vary between gender through age, as we find that adolecent females may have a higher rate for suicidal attempts. The results of these findings aids policymakers, public health officials, and mental health professionals to develop a more effective and strategic suicide prevention tailored for the population."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -25,9 +24,12 @@ library(palmerpenguins)
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. We use @citeR and @rohan.
+Suicide is a significant worldwide concern as it concerns individuals, friends, families, and communities. Understanding the factors of suicide is crucial as it extends beyond a loss of a life and onto ongoing world problems like mental health. Hence understanding factors that contribute to suicide is critical into developing prevention strategies within the public health officials and professionals. 
 
-The remainder of this paper is structured as follows. @sec-data....
+The complexity of suicide roots from various factors such as vulnerabilities, social determinants, cultural norms, and mental health being the lead cause for suicides. Moreover, suicides are varied from different demographic groups such as age and gender. Which highlights the need for specified research that consider these variables with suicide. Analyzing the relationship between how these factors play part in suicide rates can help further come up with answers and measures for a better future. 
+
+In this paper, we aim to explore the issues of suicide, carefully focusing on how age and gender play into its rates through a linear regression. The estimand here is how age and gender are related to the risk factors of suicides. Meaning, how they play into determining which group of individuals are at high suicidal risk. We will draw data from Statistics Canada, specifically focusing in Canadian suicide rates in 2019. 
+
 
 
 
