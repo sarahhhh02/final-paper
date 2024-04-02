@@ -1,6 +1,5 @@
 ---
 title: "Understanding Suicide Rates: Exploring Gender and Age Patterns That Lead to Various Risk Factors Associated with Suicidal Behaviour"
-subtitle: "My subtitle if needed"
 author: 
   - Sarah Lee
 thanks: "Code and data are available at: https://github.com/sarahhhh02/final-paper.git"
