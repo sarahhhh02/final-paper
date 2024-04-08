@@ -2,7 +2,7 @@
 title: "Understanding Suicide Rates: Exploring Gender and Age Patterns That Lead to Various Risk Factors Associated with Suicidal Behaviour"
 author: 
   - Sarah Lee
-thanks: "Code and data are available at: https://github.com/sarahhhh02/final-paper.git"
+thanks: "Code and data are available at: https://github.com/sarahhhh02/suicides.git"
 date: today
 date-format: long
 abstract: "This paper utilizes data from Statistics Canada, retrieving data related to the Suicide Rates. Analysing the relationship with gender, it is shown that suicide rates tend to be higher in male rather than female. However, suicide rates vary between gender through age, as we find that adolecent females may have a higher rate for suicidal attempts. The results of these findings aids policymakers, public health officials, and mental health professionals to develop a more effective and strategic suicide prevention tailored for the population."
@@ -20,17 +20,13 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-
 # Introduction
 
-Suicide is a significant worldwide concern as it concerns individuals, friends, families, and communities. Understanding the factors of suicide is crucial as it extends beyond a loss of a life and onto ongoing world problems like mental health. Hence understanding factors that contribute to suicide is critical into developing prevention strategies within the public health officials and professionals. 
+Suicide is a significant worldwide concern as it concerns individuals, friends, families, and communities. Understanding the factors of suicide is crucial as it extends beyond a loss of a life and onto ongoing world problems like mental health. Hence understanding factors that contribute to suicide is critical into developing prevention strategies within the public health officials and professionals.
 
-The complexity of suicide roots from various factors such as vulnerabilities, social determinants, cultural norms, and mental health being the lead cause for suicides. Moreover, suicides are varied from different demographic groups such as age and gender. Which highlights the need for specified research that consider these variables with suicide. Analyzing the relationship between how these factors play part in suicide rates can help further come up with answers and measures for a better future. 
+The complexity of suicide roots from various factors such as vulnerabilities, social determinants, cultural norms, and mental health being the lead cause for suicides. Moreover, suicides are varied from different demographic groups such as age and gender. Which highlights the need for specified research that consider these variables with suicide. Analyzing the relationship between how these factors play part in suicide rates can help further come up with answers and measures for a better future.
 
-In this paper, we aim to explore the issues of suicide, carefully focusing on how age and gender play into its rates through a linear regression. The estimand here is how age and gender are related to the risk factors of suicides. Meaning, how they play into determining which group of individuals are at high suicidal risk. We will draw data from Statistics Canada, specifically focusing in Canadian suicide rates in 2019. 
-
-
-
+In this paper, we aim to explore the issues of suicide, carefully focusing on how age and gender play into its rates through a linear regression. The estimand here is how age and gender are related to the risk factors of suicides. Meaning, how they play into determining which group of individuals are at high suicidal risk. We will draw data from Statistics Canada, specifically focusing in Canadian suicide rates in 2019.
 
 # Data {#sec-data}
 
@@ -71,9 +67,7 @@ analysis_data |>
        y = "Wing length (mm)")
 ```
 
-Talk way more about it. 
-
-
+Talk way more about it.
 
 # Model
 
@@ -83,8 +77,9 @@ Here we briefly describe the Bayesian analysis model used to investigate... Back
 
 ## Model set-up
 
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
+Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.
 
+```{=tex}
 \begin{align} 
 y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
 \mu_i &= \alpha + \beta_i + \gamma_i\\
@@ -93,16 +88,14 @@ y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
 \gamma &\sim \mbox{Normal}(0, 2.5) \\
 \sigma &\sim \mbox{Exponential}(1)
 \end{align}
-
+```
 We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
-
 
 ### Model justification
 
 We expect a positive relationship between the size of the wings and time spent aloft. In particular...
 
 We can use maths by including latex between dollar signs, for instance $\theta$.
-
 
 # Results
 
@@ -136,14 +129,11 @@ modelsummary::modelsummary(
 )
 ```
 
-
-
-
 # Discussion
 
 ## First discussion point {#sec-first-point}
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this.
 
 ## Second discussion point
 
@@ -157,8 +147,7 @@ Weaknesses and next steps should also be included.
 
 \appendix
 
-# Appendix {-}
-
+# Appendix {.unnumbered}
 
 # Additional data details
 
@@ -168,7 +157,7 @@ Weaknesses and next steps should also be included.
 
 In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
 
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
+In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows...
 
 ```{r}
 #| eval: true
@@ -212,11 +201,6 @@ plot(first_model, "trace")
 plot(first_model, "rhat")
 ```
 
-
-
 \newpage
 
-
 # References
-
-
