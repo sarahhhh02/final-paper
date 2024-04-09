@@ -1,26 +1,20 @@
 #### Preamble ####
-# Purpose: Downloads and saves the data from [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Downloads and saves the data from https://data.cdc.gov
+# Author: Sarah Lee
+# Date: 8 April 2024
+# Contact: sarahhhh.lee@mail.utoronto.ca 
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
 
 
-#### Workspace setup ####
-library(opendatatoronto)
-library(tidyverse)
-# [...UPDATE THIS...]
+### Download Data ###
+# Proceed to your web browser and paste this URL "https://data.cdc.gov" 
+# Search in the CDC website "Death rates for suicide, by sex, race, Hispanic origin, and age: United State"
+# Click on the dataset with the name "Death rates for suicide, by sex, race, Hispanic origin, and age: United States". The dataset selected should be provided by NCHS.
+# Click on the "Export" button located on the top right of the page
+# Select the "Download file", then make sure to export data in CSV form and select "All data" if not selected
+# Click Download
 
-#### Download data ####
-# [...ADD CODE HERE TO DOWNLOAD...]
-
-
-
-#### Save data ####
-# [...UPDATE THIS...]
-# change the_raw_data to whatever name you assigned when you downloaded it.
-write_csv(the_raw_data, "inputs/data/raw_data.csv") 
+### Downloaded Data ###
+# Save donwloaded CSV into "data/raw_data/suicide_raw.csv"
 
          
