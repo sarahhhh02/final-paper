@@ -9,36 +9,33 @@
 
 #### Workspace setup ####
 library(tidyverse)
+library(dplyr)
+
 
 #### Clean data ####
-raw_data <- read_csv("inputs/data/plane_data.csv")
+raw_data <- read_csv("data/raw_data/Death_rates_for_suicide__by_sex__race__Hispanic_origin__and_age__United_States_20240410.csv")
 
-cleaned_data <-
-  raw_data |>
-  janitor::clean_names() |>
-  select(wing_width_mm, wing_length_mm, flying_time_sec_first_timer) |>
-  filter(wing_width_mm != "caw") |>
-  mutate(
-    flying_time_sec_first_timer = if_else(flying_time_sec_first_timer == "1,35",
-                                   "1.35",
-                                   flying_time_sec_first_timer)
-  ) |>
-  mutate(wing_width_mm = if_else(wing_width_mm == "490",
-                                 "49",
-                                 wing_width_mm)) |>
-  mutate(wing_width_mm = if_else(wing_width_mm == "6",
-                                 "60",
-                                 wing_width_mm)) |>
-  mutate(
-    wing_width_mm = as.numeric(wing_width_mm),
-    wing_length_mm = as.numeric(wing_length_mm),
-    flying_time_sec_first_timer = as.numeric(flying_time_sec_first_timer)
-  ) |>
-  rename(flying_time = flying_time_sec_first_timer,
-         width = wing_width_mm,
-         length = wing_length_mm
-         ) |> 
-  tidyr::drop_na()
+#Total suicide rate by sex
+cleaned_sex <- raw_data %>%
+  select(UNIT, STUB_NAME, STUB_LABEL, YEAR, AGE, ESTIMATE) %>%
+  filter(STUB_LABEL %in% c("Male", "Female"))
+
+#Total suicide rate by age range
+cleaned_age <- raw_data %>%
+  select(UNIT, STUB_NAME, STUB_LABEL, YEAR, AGE, ESTIMATE) %>%
+  filter(STUB_LABEL %in% c("10-14 years", "15-24 years", "20-24 years", "25-44 years", "35-44 years",
+                    "45-64 years", "55-64 years", "65 years and over", "65-74 years", "75-84 years", 
+                    "85 years and over"))
+
+#Total suicide rate by sex and race
+cleaned_sex_race <- raw_data %>%
+  select(UNIT, STUB_NAME, STUB_LABEL, YEAR, AGE, ESTIMATE) %>%
+  filter(STUB_LABEL %in% c("Male: White", "Male: Black or African American", "Male: American Indian or Alaska Native",
+                           "Male: Asian or Pacific Islander", "Female: White", "Female: Black or African American",
+                           "Female: American Indian or Alaska Native", "Female: Asian or Pacific Islander"))
+print(cleaned_sex_race)
 
 #### Save data ####
-write_csv(cleaned_data, "outputs/data/analysis_data.csv")
+write_csv(cleaned_sex, "data/analysis_data/cleaned_sex.csv")
+write_csv(cleaned_age, "data/analysis_data/cleaned_age.csv")
+write_csv(cleaned_sex_race, "data/analysis_data/cleaned_sex_race.csv")
