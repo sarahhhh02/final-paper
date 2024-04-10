@@ -15,6 +15,6 @@
 # Click Download
 
 ### Downloaded Data ###
-# Save donwloaded CSV into "data/raw_data/suicide_raw.csv"
+# Save downloaded CSV into "data/raw_data/Death_rates_for_suicide__by_sex__race__Hispanic_origin__and_age__United_States_20240410.csv"
 
          
