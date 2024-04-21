@@ -1,8 +1,8 @@
-# Trends in Suicide Rates in the United States Population between selected 1950-2018
+# Exploring Suicide Rates: Assessing Age, Sex and Race Patterns with Statistical Insights into Suicide Risk
 
 ## Overview
 
-This repo provides 
+This repository contains data and analysis regarding suicide rates spanning from 1950 to 2018, shedding light on suicide rates in the United States. It intricately examines demographic factors such as age, sex, and race, recognizing their pivotal role in understanding this pressing public health issue. The primary data is provided from the Centers for Disease Control and Prevention (CDC), that offers a detailed glimpse into the landscape of suicide rates in the country. Through meticulous analysis, this paper reveals the variations in suicide rates across  demographic groups, offering valuable insight into understanding suicide risk. 
 
 
 ## File Structure
@@ -18,13 +18,4 @@ The repo is structured as:
 
 
 ## Statement on LLM usage
-
-Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
-
-## Some checks
-
-- [O] Change the rproj file name so that it's not starter_folder.Rproj
-- [O] Change the README title so that it's not Starter folder
-- [ ] Remove files that you're not using
-- [ ] Update comments in R scripts
-- [ ] Remove this checklist
+No LLM usage.
