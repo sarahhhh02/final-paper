@@ -1,14 +1,17 @@
 ---
-title: "Understanding Suicide Rates: Exploring Gender and Age Patterns That Lead to Various Risk Factors Associated with Suicidal Behaviour"
+title: "Exploring Suicide Rates: Assessing Age, Sex and Race Patterns with Statistical Insights into Suicide Risk"
 author: 
   - Sarah Lee
 thanks: "Code and data are available at: https://github.com/sarahhhh02/suicides.git"
 date: today
 date-format: long
-abstract: "This paper utilizes data from Statistics Canada, retrieving data related to the Suicide Rates. Analysing the relationship with gender, it is shown that suicide rates tend to be higher in male rather than female. However, suicide rates vary between gender through age, as we find that adolecent females may have a higher rate for suicidal attempts. The results of these findings aids policymakers, public health officials, and mental health professionals to develop a more effective and strategic suicide prevention tailored for the population."
+abstract: "This paper utilizes data from Statistics Canada, retrieving data related to the Suicide Rates. Analysing the relationships with sex, age and race it is shown that suicide rates tend to be higher in male rather than female. However, suicide rates vary between gender through age, as we find that adolecent females may have a higher rate for suicidal attempts. The results of these findings aids policymakers, public health officials, and mental health professionals to develop a more effective and strategic suicide prevention tailored for the population."
 format: pdf
 number-sections: true
 bibliography: references.bib
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
 ```{r}
@@ -17,87 +20,397 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-library(palmerpenguins)
+library(arrow)
+library(knitr)
+library(dplyr)
+library(ggplot2)
+
+
+
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| 
+### Retrieve Model ###
+first_model <- readRDS(here::here("models/first_model.rds"))
+second_model <- readRDS(here::here("models/second_model.rds"))
+third_model <- readRDS(here::here("models/third_model.rds"))
+fourth_model <- readRDS(here::here("models/fourth_model.rds"))
+
 ```
 
 # Introduction
 
-Suicide is a significant worldwide concern as it concerns individuals, friends, families, and communities. Understanding the factors of suicide is crucial as it extends beyond a loss of a life and onto ongoing world problems like mental health. Hence understanding factors that contribute to suicide is critical into developing prevention strategies within the public health officials and professionals.
+The issue of suicide has gained increasing attention all around the world involving all individuals, friends, families, and communities.
+Suicide rates serve as a critical indicator of the mental health and well-being of a population, reflecting underlying social, economic, and cultural factors.
+Thus, a comprehensive understanding of suicide distribution across demographics are essential for targeted intervention and prevention strategies within the public health officials and professionals.
+However, while existing research acknowledges these disparities, there remains a crucial gap in understanding how specific factors such as age, sex, and race intersect to influence suicide rates.
+Hence the need for specified research that consider each variables and their relationship between how factors play part can further help to come up with answers and measures for a better future.
 
-The complexity of suicide roots from various factors such as vulnerabilities, social determinants, cultural norms, and mental health being the lead cause for suicides. Moreover, suicides are varied from different demographic groups such as age and gender. Which highlights the need for specified research that consider these variables with suicide. Analyzing the relationship between how these factors play part in suicide rates can help further come up with answers and measures for a better future.
+This paper aims to address this gap by delving into the intricate dynamics of suicide rates in United States, focusing specifically on the nuanced intersections of age, sex, and race.
+By employing a linear regression analysis, we seek to unravel how these demographic variables contribute to suicide risk factors.
+The estimand here is how age, gender and race are related to the risk factors of suicides.
+Through this approach, we endeavor to elucidate which demographic groups are at heightened risk of suicide prevalence.
+Drawing upon suicide data sets soured from the "Centers for Disease Control and Prevention (CDC)" [@cdc_suicide_rates], our study unveils temporal patterns and disparities in suicide rates across various demographic groups.
+Through rigorous analysis, we illuminate shifting dynamics in suicide prevalence among different age cohorts, sexes, and racial groups.
+Furthermore, by exploring the intersections of these factors, we reveal how they interact to shape the overall landscape of suicide in the United States.The study focuses on answering the following questions:
 
-In this paper, we aim to explore the issues of suicide, carefully focusing on how age and gender play into its rates through a linear regression. The estimand here is how age and gender are related to the risk factors of suicides. Meaning, how they play into determining which group of individuals are at high suicidal risk. We will draw data from Statistics Canada, specifically focusing in Canadian suicide rates in 2019.
+-   What trend do we see in the total suicide rates in US between 1950-2018?
 
-# Data {#sec-data}
+-   How do suicide rates vary across different age groups?
 
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
+-   How do suicide rates vary between sexes?
+
+-   How do suicide rates vary across age and sex combined?
+
+-   How do suicide rates vary across sex and race combined?
+
+-   How do suicide rates vary across age, sex, and race?
+
+Understanding the trends and disparities in suicide rates is vital for developing effective prevention and intervention strategies tailored to the diverse needs of vulnerable populations.
+By elucidating the intricate relationships between age, sex, and race in the context of suicide, this paper contributes to the broader discourse on mental health and public health policy.
+In the subsequent sections, we delve deeper into the methodology employed, present our findings, discuss their implications, and propose avenues for future research, thereby offering valuable insights into addressing this pressing public health issue.
+
+## Data Source
+
+The data utilized in this paper concentrates on suicide rates in United States between the years from 1950 to 2018, which is accessible through the database from the Center for Disease Control and Prevention (CDC) on Death rates for Suicide, by sex, race, Hispanic origin, and age: United States [@cdc_suicide_rates].
+This data source contains data concerning suicide rates covering demographics of the following age, race, sex, and Hispanic origin.
+It is available to the public, which can be downloaded for free from its website in forms of multiple export files.
+The data collection process of the database is provided by the National Center for Health Statistics (NCHS) and DAE that samples on a population of 100,000 US residents.
+
+The analysis of this paper makes use of the R programming language [@citeR] for statistical computation and to visualize data.
+The tidyverse package [@rtidyverse] is installed to have access to other R packages used in this paper.
+Other packages used are dplyr [@rdplyr], ggplot2[@rggplot2], knitr [@rknitr], and arrow [@arrow].
+To enhance visualizations, we used the Shiny App [@Rshinyapp] to create a more interactive visualization.
+
+## Variables of Interest
+
+Our analysis is specifically interested in investigating the demographic factors of age, sex, and race between the years 1950 to 2018.
+We have utilized the variables from population of 100,000 US residents crude excluding any age-adjusted populations for a more accurate representation of the population.
+Moreover, cleaning the data in order to separate the sections of the raw data into each selected factors of age, sex, race, and a combination.
+The specific variable in the raw data that was not included in this research are Hispanic origin.
+
+## Total Suicide Rates in United States
+
+The overall trend in Suicide Rates in United States are shown below in [@tbl-totalsuicide].
+Indicating us a percentage of an estimate of deaths per year.
 
 ```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
-#| echo: false
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk more about it.
-
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
-
-```{r}
-#| label: fig-planes
-#| fig-cap: Relationship between wing length and width
-#| echo: false
-#| warning: false
 #| message: false
+#| echo: false
+#| tbl-cap: Total Suicide Rates per 100,000 population by Year 
+#| label: tbl-totalsuicide
 
-analysis_data <- read_csv(here::here("data/analysis_data/analysis_data.csv"))
+cleaned_total <- read_parquet(here::here("data/analysis_data/cleaned_total.parquet"))
 
-analysis_data |> 
-  ggplot(aes(x = width, y = length)) +
-  geom_point(alpha = 0.8) +
-  theme_minimal() +
-  labs(x = "Wing width (mm)",
-       y = "Wing length (mm)")
+#Create Table
+data <- cleaned_total |>
+  group_by(YEAR) |>
+  summarise(ESTIMATE = sum(ESTIMATE)) |>
+  arrange(desc(YEAR))
+    
+knitr::kable(data, 'markdown', col.names = c("Year", "Estimate"), align = 'c')
+
 ```
 
-Talk way more about it.
+```{r}
+#| label: fig-1
+#| fig-cap: Total Suicide Rates per 100,000 Population by Year
+#| echo: false
+
+cleaned_total <- read_parquet(here::here("data/analysis_data/cleaned_total.parquet"))
+
+cleaned_total |>
+  ggplot(aes(x = YEAR, y = ESTIMATE)) +
+  geom_bar(position = "dodge2", stat = "identity") +
+  labs(x = "Year", y = "Estimate") +
+  theme_minimal()
+
+```
+
+The plot [@fig-1], shows us a brief understanding of suicide trends by year.
+We can see that from year 2000, there is gradual increase in suicides hitting the highest numbers by 2018.
+[@tbl-totalsuicide] shows us the accurate numbers of suicide rate estimates.
+Providing a estimate of 14.8 estimates in 2018 and the lowest count at 2000 with 10.4 estimation.
+In the following sections we will observe trends of suicide rates by each demographic factors.
+
+### Trends in Suicide Rates by Sex
+
+There is a significant difference in suicide rates between the two sexes.
+It is evidently provided that males have a higher risk in suicide compared to females shown in [@fig-2].
+
+```{r}
+#| label: fig-2
+#| fig-cap: Crude Death Rates per 100,000 Resident Population by Sex
+#| echo: false
+
+#Retrieve Data
+cleaned_sex <- read_parquet(here::here("data/analysis_data/cleaned_sex.parquet"))
+
+ggplot() + 
+  geom_line(data = cleaned_sex, aes(x = YEAR, y = ESTIMATE, color = factor(SEX), fill = factor((SEX)),stat = "identity")) +
+  geom_line(data = cleaned_total, aes(x = YEAR, y = ESTIMATE, color = POPULATION),
+           stat = "identity") +
+  labs(x = "Year", y = "Death Rate") +
+  scale_fill_brewer(palette = "Set1", name = "Sex") +
+  theme_minimal()
+
+```
+
+The estimated baseline suicide rate, represented by the intercept, is approximately 5.0 which indicates the average suicide rates when not considering sex as a factor.
+However, when taking in the effects of sex, the estimated suicide rates for males is approximately 14.3.
+That is 34% more than the average suicide rates.
+This shows us the significant emphasis of the disparities in suicide rates per sex.
+
+### Trends in Suicide Rates by Age
+
+Overall, we see a decrease in suicides in all age ranges excluding 10-14 years from 1950 to 1990s.
+However, from the 1990s, we see a increase into the early 2000s and then again a decreasing until around 2010.
+Then once again an increase from then until 2018.
+The only age group that does not follow this pattern are the 10-14 year range, showing us consistence and a slight increase starting from the early 2000s.
+
+```{r}
+#| label: fig-3
+#| fig-cap: Crude Death Rates per 100,000 Resident Population by Age
+#| echo: false
+
+#Retrieve Data
+cleaned_age <- read_parquet(here::here("data/analysis_data/cleaned_age.parquet"))
+
+#Create graph
+cleaned_age |>
+  ggplot(mapping = aes(x = YEAR, y = ESTIMATE, color = factor(AGE))) +
+  geom_line() +
+  labs(x = "Year", y = "Death Rate", color = "Age Group") +
+  theme_minimal()
+```
+
+Based on the data provided above [@fig-3], we find that apart from ages 10-14, all the other age range show a similiar pattern in suicide rates.
+Analyzing the data furthermore, we see that younger age groups such as those between 15-24 years tend to have lower suicide rates compared to older age groups.
+There is a notable increase in suicide rates among elderly population, particularity those ages 75 year and above.
+When we observe the mean of suicides per age, the lowest mean among the elderly is 18.6 which is higher than younger aged population, highest mean being 12.4.
+Moreover, within each age range, there is a variability in suicide rates that may reflect diverse factors that influence suicide risk within specific age groups.
+Such as socioeconomic status, mental health issues and access to health support.
 
 # Model
 
-The goal of our modelling strategy is twofold. Firstly,...
-
-Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
+Through the data analysis of this paper, we discovered that there is a correlation between suicide rates and demographic factors such as age, sex, and race.
+To further analyze the implications of the impact demographic factors with suicide rates, we constructed a linear regression model.
 
 ## Model set-up
 
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.
+This model fits a linear regression model where year is the independent variable and suicide rates are the response variable.
+We run the model in R [@citeR] using the `rstanarm` package of [@rstanarm].
 
 ```{=tex}
 \begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
+\y_i = \beta_0 + \beta_1 \mbox{Sex} + \beta_2  \mbox{Age}+ \beta_3 \mbox{Race}
 \end{align}
 ```
-We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
+Define
 
-### Model justification
+-   $y_i$ as the suicide rate estimated by year
 
-We expect a positive relationship between the size of the wings and time spent aloft. In particular...
+-   $\beta_0$ is the coefficient for intercept
 
-We can use maths by including latex between dollar signs, for instance $\theta$.
+-   $\beta_1$ is the coefficient for the rate at which suicide rates change with respect to sex
+
+-   $\beta_2$ is the coefficient for the rate at which suicide rates change with respect to age
+
+-   $\beta_3$ is the coefficient for the rate at which suicide rates change with respect to race
+
+## Model justification
+
+We anticipate that the linear regression model helps us understand the relationship between suicide rates and several demographic variables such as sex, age, and race.
+This is because each coefficient in the model represents the change in the response variable associated with a one-unit change in the predictor variable (age, sex, and race) that hold other variables constant.
+When using the model, we can determine which demographic factors have a significant impact on suicide rates.
+The significance of each coefficient can be assessed using hypothesis test, such as t-tests.
+Furthermore, when including multiple predictor variables in the model, we can control for potential confounding variable.
+To illustrate, by including both age and sex in the model, we can assess the independent effect of each variable on suicide rates while controlling for the other.
+This model can also capture the interaction effects between predictor variables.
+Demonstrating the effect of age on suicide rates based on the different sexes and racial group.
 
 # Results
+
+## Suicide Rates by Sex and Age
+
+The estimated baseline suicide rates when controlling for sex and age predictors is approximately -9.6.
+This represents the suicide rate when both sexes and age are at their reference levels.
+For males, the estimated effects on suicide rates are approximately 21.5, suggesting that males have significantly higher estimated suicide rates compared to females when other variables are held constant.
+The plot shown below [@fig-4] also suggests the opposite interaction between the years from 1980 to 2018.
+While males are on average showing an concave down pattern, females are presenting a concave up trend.
+
+```{r}
+#| label: fig-4
+#| fig-cap: Suicide Rates per 100,000 Population by Sex and Age
+#| echo: false
+
+cleaned_age_sex <- read_parquet(here::here("data/analysis_data/cleaned_age_sex.parquet"))
+
+# Filter data for males
+male_data <- cleaned_age_sex %>%
+  filter(SEX == "Male", AGE %in% AGE)
+
+# Filter data for females
+female_data <- cleaned_age_sex %>%
+  filter(SEX == "Female", AGE %in% AGE)
+
+# Plot for males
+ggplot(male_data, aes(x = YEAR, y = ESTIMATE, color = AGE, fill = AGE)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Suicide Rates for Males by Age Groups",
+       x = "Year",
+       y = "Suicide Rate per 100,000 resident population",
+       color = "Age Group",
+       fill = "Age Group") +
+  scale_fill_viridis_d(option = "A", name = "Age") +
+  scale_color_viridis_d(option = "A", name = "Age") +
+  theme(legend.position = "right") +
+  facet_wrap(~SEX)
+
+# Plot for females
+ggplot(female_data, aes(x = YEAR, y = ESTIMATE, color = AGE, fill = AGE)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Suicide Rates for Females by Age Groups",
+       x = "Year",
+       y = "Suicide Rate per 100,000 resident population",
+       color = "Age Group",
+       fill = "Age Group") +
+  scale_fill_viridis_d(option = "A", name = "Age") +
+  scale_color_viridis_d(option = "A", name = "Age") +
+  theme(legend.position = "right") +
+  facet_wrap(~SEX)
+```
+
+Visibility we see that suicide rates vary across different age groups.
+Generally, suicide rates increase with age, as shown in the previous observation in [@fig-3].
+With older age groups having a higher estimated suicide compared to younger age groups.
+These findings underscore the significance of considering both gender and age when examining suicide rates, as they provide valuable insights into the complex interplay of demographic factors influencing suicide risk.
+Moreover, they highlight the importance of tailored interventions targeting specific demographic groups to prevent suicide effectively.
+
+### Suicide Rates by Sex and Race
+
+Shown below in [@fig-5], we can observe the relationship between sex and race through a bar graph.
+Comparing female and male among the years selected from 1980, 1990, 2000, 2005, 2010, 2015, 2016, 2017, 2018 by racial groups.
+We selected more recent years, to see more relevant data to today.
+
+```{r}
+#| label: fig-5
+#| fig-cap: Crude Death Rates per 100,000 Resident Population by Sex and Race per Selected Year
+#| echo: false
+
+cleaned_sex_race <- read_parquet(here::here("data/analysis_data/cleaned_sex_race.parquet"))
+
+# Choose specific years
+years <- c(1980, 1990, 2000, 2005, 2010, 2015, 2016, 2017, 2018)  
+
+# Filter data for selected years
+cleaned_sex_race_selected <- cleaned_sex_race |>
+  filter(YEAR %in% years)
+
+# Create separate bar charts for the selected years
+ggplot(cleaned_sex_race_selected, aes(x = RACE, y = ESTIMATE, fill = SEX)) +
+  geom_bar(position = "dodge2", stat = "identity") +
+  facet_wrap(~ YEAR, scales = "free") +
+  labs(
+    x = "Race",
+    y = "Death Rate",
+    fill = "Sex"
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    axis.text.x = element_text(angle = 40, vjust = 1, hjust = 1),  # Rotate x-axis text
+  ) +
+  scale_fill_brewer(palette = "Set1")
+  
+```
+
+The estimated mean response when all predictor variables are zero, in this case, its estimated to be 6.1.
+Focusing on the males, the estimated difference in the response variable between male and female are found that males have a higher response by 10.7.
+We see that individuals part of the Asian or Pacific Islanders and Black or African American races are estimated to have lower responses by 5.4 and 5.3.
+Hence providing us that individuals of the White race are estimated to have a higer response by 2.1 compared to the other racial groups.
+
+### Suicide Rates by Sex, Age, and Race
+
+```{r}
+### ShinyApp for Suicide Rates by Sex, Age and Race ###
+
+# Load required libraries
+library(shiny)
+library(ggplot2)
+
+
+# Define UI
+ui <- fluidPage(
+  titlePanel("Suicide Rates between 1950-2018 in United States by Sex, Age and Race"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("SEX", "Select Sex:", choices = c("Male", "Female")),
+      checkboxGroupInput("AGE", "Select Age Group:", 
+                         choices = c("15-24 years", "25-44 years", "45-64 years", "65 years and over", "75-84 years", "85 years and over"),
+                         selected = c("15-24 years", "25-44 years","45-64 years", "65 years and over", "75-84 years", "85 years and over")),
+      checkboxGroupInput("RACE", "Select Age Group:", 
+                         choices = c("White", "Black or African American", "American Indian or Alaska Native", "Asian or Pacific Islander"),
+                         selected = c("White", "Black or African American", "American Indian or Alaska Native", "Asian or Pacific Islander"))
+    ),
+    mainPanel(
+      plotOutput("plot")
+    )
+  )
+)
+
+server <- function(input, output) {
+  
+  # Retrieve data from file
+  cleaned_sex_age_race <- read_parquet(here::here("data/analysis_data/cleaned_sex_age_race.parquet"))
+  
+  output$plot <- renderPlot({
+    # Filter data based on user inputs
+    filtered_data <- cleaned_sex_age_race %>%
+      filter(SEX == input$SEX, 
+             AGE %in% input$AGE,
+             RACE %in% input$RACE)
+    
+    ggplot(filtered_data, aes(x = YEAR, y = ESTIMATE, color = RACE, linetype = SEX)) +
+      geom_line() +
+      geom_point() +
+      facet_grid(. ~ AGE) +
+      labs(title = "Suicide Rates between 1950-2018 in United States by Sex, Age and Race",
+           x = "Year", y = "Suicide Rate")
+  })
+}
+
+shinyApp(ui = ui, server = server)
+
+```
+
+```{r}
+# Load required libraries
+library(ggplot2)
+library(dplyr)
+
+cleaned_sex_age_race <- read_parquet(here::here("data/analysis_data/cleaned_sex_age_race.parquet"))
+fifth_model <-
+  readRDS(file = here::here("models/fifth_model.rds"))
+
+cleaned_sex_age_race$predicted <- predict(model)
+
+ggplot(cleaned_sex_age_race, aes(x = predicted, y = ESTIMATE)) +
+  geom_point() +
+  geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "red") + # Add a diagonal line for reference
+  labs(title = "Regression Model: Actual vs. Predicted Suicide Rates",
+       x = "Predicted Suicide Rate",
+       y = "Actual Suicide Rate")
+# Print model summary
+summary(fifth_model)
+```
 
 Our results are summarized in @tbl-modelresults.
 
@@ -131,9 +444,42 @@ modelsummary::modelsummary(
 
 # Discussion
 
+1.  **Model Performance**:
+    -   Fit diagnostics, including the mean of the posterior predictive distribution (mean_PPD), suggest that the model adequately predicts suicide rates across genders.
+    -   MCMC diagnostics indicate convergence of the Markov Chain Monte Carlo (MCMC) chains and sufficient effective sample sizes, enhancing confidence in the reliability of the estimates.
+2.  **Policy Implications**:
+    -   The higher estimated suicide rate among males highlights the importance of gender-specific interventions and support services for suicide prevention.
+    -   Tailored strategies addressing the unique risk factors and mental health needs of males can help reduce the burden of suicide in this demographic.
+
+```{=html}
+<!-- -->
+```
+1.  **Policy Implications**:
+    -   These findings underscore the importance of age-specific interventions and support services for suicide prevention.
+    -   Targeted strategies tailored to the unique needs and risk factors of different age groups can help mitigate suicide risk and promote mental well-being across the lifespan.
+
+```{=html}
+<!-- -->
+```
+1.  **Model Performance**:
+
+    -   Fit diagnostics, including the mean of the posterior predictive distribution (mean_PPD), suggest that the model adequately predicts suicide rates considering gender and age as predictors.
+
+    -   MCMC diagnostics indicate convergence of the Markov Chain Monte Carlo (MCMC) chains and sufficient effective sample sizes, enhancing confidence in the reliability of the estimates.**Sigma**: Sigma represents the standard deviation of the residual errors in the model.
+        It indicates the variability of the response variable around the predicted values.
+        In this case, it's estimated to be 2.6.
+
+    The fit diagnostics provide additional information about the model performance:
+
+    -   **mean_PPD**: This represents the mean of the posterior predictive distribution, which is a measure of how well the model predicts the observed data.
+        In this case, it's estimated to be 9.4.
+
+    In summary, these findings indicate the estimated effects of sex and race on the response variable, along with the variability in the model's predictions and residuals.
+
 ## First discussion point {#sec-first-point}
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this.
+If my paper were 10 pages, then should be be at least 2.5 pages.
+The discussion is a chance to show off what you know and what you learnt from all this.
 
 ## Second discussion point
 
@@ -155,9 +501,11 @@ Weaknesses and next steps should also be included.
 
 ## Posterior predictive check
 
-In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
+In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check.
+This shows...
 
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows...
+In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior.
+This shows...
 
 ```{r}
 #| eval: true
@@ -182,9 +530,13 @@ posterior_vs_prior(first_model) +
 
 ## Diagnostics
 
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
+@fig-stanareyouokay-1 is a trace plot.
+It shows...
+This suggests...
 
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
+@fig-stanareyouokay-2 is a Rhat plot.
+It shows...
+This suggests...
 
 ```{r}
 #| echo: false
