@@ -11,6 +11,10 @@
 #### Workspace setup ####
 library(tidyverse)
 library(dplyr)
+library(dplyr)
+library(waffle)
+
+
 
 #### Simulate data ####
 # Set seed for reproducibility
