@@ -14,12 +14,22 @@ library(arrow)
 
 
 #### Clean data ####
-raw_data <- read_csv("data/raw_data/Death_rates_for_suicide__by_sex__race__Hispanic_origin__and_age__United_States_20240410.csv")
+raw_data <- read_csv("data/raw_data/Death_rates_for_suicide__by_sex__race__Hispanic_origin__and_age__United_States_20240408.csv")
+
+#UNIT must be by population calculated by crude to determine the un-adjusted rates
+cleaned_total <- raw_data %>%
+  select(UNIT, YEAR, STUB_LABEL, ESTIMATE) %>%
+  filter(STUB_LABEL %in% c("All persons")) %>%
+  filter(UNIT %in% c("Deaths per 100,000 resident population, crude")) %>%
+  rename(POPULATION = STUB_LABEL)
+
+write_parquet(cleaned_total, "data/analysis_data/cleaned_total.parquet")
 
 ###Total suicide rate by sex###
 cleaned_sex <- raw_data %>%
   select(UNIT, YEAR, STUB_LABEL, ESTIMATE) %>%
   filter(STUB_LABEL %in% c("Male", "Female")) %>%
+  filter(UNIT %in% c("Deaths per 100,000 resident population, crude")) %>%
   rename(SEX = STUB_LABEL)
 
 write_parquet(cleaned_sex, "data/analysis_data/cleaned_sex.parquet")
@@ -34,13 +44,28 @@ cleaned_age <- raw_data %>%
 
 write_parquet(cleaned_age, "data/analysis_data/cleaned_age.parquet")
 
+###Total suicide rate by age range and sex###
+cleaned_age_sex <- raw_data %>%
+  select(UNIT, YEAR, STUB_LABEL, ESTIMATE) %>%
+  filter(STUB_LABEL %in% c("Male: 10-14 years", "Male: 15-24 years", "Male: 20-24 years", "Male: 25-44 years", "Male: 35-44 years",
+                           "Male: 45-64 years", "Male: 55-64 years", "Male: 65 years and over", "Male: 65-74 years", "Male: 75-84 years", 
+                           "Male: 85 years and over", "Female: 10-14 years", "Female: 15-24 years", "Female: 20-24 years", "Female: 25-44 years", "Female: 35-44 years",
+                           "Female: 45-64 years", "Female: 55-64 years", "Female:65 years and over", "Female: 65-74 years", "Female: 75-84 years", 
+                           "Female: 85 years and over")) %>%
+  filter(UNIT %in% c("Deaths per 100,000 resident population, crude")) %>%
+  separate(STUB_LABEL, into = c("SEX", "AGE"), sep = ":\\s+", extra = "merge")  %>%
+  filter(!is.na(ESTIMATE))
+
+write_parquet(cleaned_age_sex, "data/analysis_data/cleaned_age_sex.parquet")
+
 ###Total suicide rate by sex and race###
 cleaned_sex_race <- raw_data %>%
   select(UNIT, YEAR, STUB_LABEL, ESTIMATE) %>%
   filter(STUB_LABEL %in% c("Male: White", "Male: Black or African American", "Male: American Indian or Alaska Native",
                            "Male: Asian or Pacific Islander", "Female: White", "Female: Black or African American",
                            "Female: American Indian or Alaska Native", "Female: Asian or Pacific Islander")) %>%
-  separate(STUB_LABEL, into = c("SEX", "RACE"), sep = ":\\s+", extra = "merge")  %>%
+  filter(UNIT %in% c("Deaths per 100,000 resident population, crude")) %>%
+  separate(STUB_LABEL, into = c("SEX", "RACE"), sep = ":\\s+", extra = "merge") %>%
   filter(!is.na(ESTIMATE))
 
 write_parquet(cleaned_sex_race, "data/analysis_data/cleaned_sex_race.parquet")
@@ -73,8 +98,10 @@ cleaned_sex_age_race <- raw_data %>%
 write_parquet(cleaned_sex_age_race, "data/analysis_data/cleaned_sex_age_race.parquet")
 
 #### Save data ####
+write_csv(cleaned_total, "data/analysis_data/cleaned_total.csv")
 write_csv(cleaned_sex, "data/analysis_data/cleaned_sex.csv")
 write_csv(cleaned_age, "data/analysis_data/cleaned_age.csv")
 write_csv(cleaned_sex_race, "data/analysis_data/cleaned_sex_race.csv")
 write_csv(cleaned_sex_age_race, "data/analysis_data/cleaned_sex_age_race.csv")
+write_csv(cleaned_age_sex, "data/analysis_data/cleaned_age_sex.csv")
 
