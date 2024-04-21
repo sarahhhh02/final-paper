@@ -1,169 +1,85 @@
-UNIT,STUB_NAME,STUB_LABEL,YEAR,AGE,ESTIMATE
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1950,All ages,21.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1960,All ages,20
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1970,All ages,19.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1980,All ages,19.9
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1981,All ages,19.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1982,All ages,20.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1983,All ages,20.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1984,All ages,20.9
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1985,All ages,21.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1986,All ages,21.9
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1987,All ages,21.7
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1988,All ages,21.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1989,All ages,21
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1990,All ages,21.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1991,All ages,21.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1992,All ages,20.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1993,All ages,20.7
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1994,All ages,20.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1995,All ages,20.3
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1996,All ages,19.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1997,All ages,19.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1998,All ages,18.9
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,1999,All ages,17.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2000,All ages,17.7
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2001,All ages,18.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2002,All ages,18.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2003,All ages,18.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2004,All ages,18.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2005,All ages,18.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2006,All ages,18.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2007,All ages,18.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2008,All ages,19
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2009,All ages,19.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2010,All ages,19.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2011,All ages,20
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2012,All ages,20.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2013,All ages,20.3
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2014,All ages,20.7
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2015,All ages,21.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2016,All ages,21.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2017,All ages,22.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Male,2018,All ages,22.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1950,All ages,5.6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1960,All ages,5.6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1970,All ages,7.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1980,All ages,5.7
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1981,All ages,6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1982,All ages,5.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1983,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1984,All ages,5.6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1985,All ages,5.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1986,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1987,All ages,5.3
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1988,All ages,5.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1989,All ages,4.9
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1990,All ages,4.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1991,All ages,4.7
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1992,All ages,4.6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1993,All ages,4.6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1994,All ages,4.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1995,All ages,4.3
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1996,All ages,4.3
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1997,All ages,4.3
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1998,All ages,4.3
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,1999,All ages,4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2000,All ages,4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2001,All ages,4.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2002,All ages,4.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2003,All ages,4.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2004,All ages,4.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2005,All ages,4.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2006,All ages,4.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2007,All ages,4.6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2008,All ages,4.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2009,All ages,4.9
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2010,All ages,5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2011,All ages,5.2
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2012,All ages,5.4
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2013,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2014,All ages,5.8
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2015,All ages,6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2016,All ages,6
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2017,All ages,6.1
-"Deaths per 100,000 resident population, age-adjusted",Sex,Female,2018,All ages,6.2
-"Deaths per 100,000 resident population, crude",Sex,Male,1950,All ages,17.8
-"Deaths per 100,000 resident population, crude",Sex,Male,1960,All ages,16.5
-"Deaths per 100,000 resident population, crude",Sex,Male,1970,All ages,16.8
-"Deaths per 100,000 resident population, crude",Sex,Male,1980,All ages,18.6
-"Deaths per 100,000 resident population, crude",Sex,Male,1981,All ages,18.7
-"Deaths per 100,000 resident population, crude",Sex,Male,1982,All ages,19.2
-"Deaths per 100,000 resident population, crude",Sex,Male,1983,All ages,19.2
-"Deaths per 100,000 resident population, crude",Sex,Male,1984,All ages,19.8
-"Deaths per 100,000 resident population, crude",Sex,Male,1985,All ages,20
-"Deaths per 100,000 resident population, crude",Sex,Male,1986,All ages,20.7
-"Deaths per 100,000 resident population, crude",Sex,Male,1987,All ages,20.6
-"Deaths per 100,000 resident population, crude",Sex,Male,1988,All ages,20.2
-"Deaths per 100,000 resident population, crude",Sex,Male,1989,All ages,20
-"Deaths per 100,000 resident population, crude",Sex,Male,1990,All ages,20.4
-"Deaths per 100,000 resident population, crude",Sex,Male,1991,All ages,20.1
-"Deaths per 100,000 resident population, crude",Sex,Male,1992,All ages,19.5
-"Deaths per 100,000 resident population, crude",Sex,Male,1993,All ages,19.7
-"Deaths per 100,000 resident population, crude",Sex,Male,1994,All ages,19.6
-"Deaths per 100,000 resident population, crude",Sex,Male,1995,All ages,19.5
-"Deaths per 100,000 resident population, crude",Sex,Male,1996,All ages,19
-"Deaths per 100,000 resident population, crude",Sex,Male,1997,All ages,18.3
-"Deaths per 100,000 resident population, crude",Sex,Male,1998,All ages,18.2
-"Deaths per 100,000 resident population, crude",Sex,Male,1999,All ages,17.1
-"Deaths per 100,000 resident population, crude",Sex,Male,2000,All ages,17.1
-"Deaths per 100,000 resident population, crude",Sex,Male,2001,All ages,17.6
-"Deaths per 100,000 resident population, crude",Sex,Male,2002,All ages,18
-"Deaths per 100,000 resident population, crude",Sex,Male,2003,All ages,17.7
-"Deaths per 100,000 resident population, crude",Sex,Male,2004,All ages,17.8
-"Deaths per 100,000 resident population, crude",Sex,Male,2005,All ages,17.8
-"Deaths per 100,000 resident population, crude",Sex,Male,2006,All ages,17.9
-"Deaths per 100,000 resident population, crude",Sex,Male,2007,All ages,18.4
-"Deaths per 100,000 resident population, crude",Sex,Male,2008,All ages,19
-"Deaths per 100,000 resident population, crude",Sex,Male,2009,All ages,19.3
-"Deaths per 100,000 resident population, crude",Sex,Male,2010,All ages,19.9
-"Deaths per 100,000 resident population, crude",Sex,Male,2011,All ages,20.2
-"Deaths per 100,000 resident population, crude",Sex,Male,2012,All ages,20.6
-"Deaths per 100,000 resident population, crude",Sex,Male,2013,All ages,20.6
-"Deaths per 100,000 resident population, crude",Sex,Male,2014,All ages,21.1
-"Deaths per 100,000 resident population, crude",Sex,Male,2015,All ages,21.5
-"Deaths per 100,000 resident population, crude",Sex,Male,2016,All ages,21.8
-"Deaths per 100,000 resident population, crude",Sex,Male,2017,All ages,22.9
-"Deaths per 100,000 resident population, crude",Sex,Male,2018,All ages,23.4
-"Deaths per 100,000 resident population, crude",Sex,Female,1950,All ages,5.1
-"Deaths per 100,000 resident population, crude",Sex,Female,1960,All ages,4.9
-"Deaths per 100,000 resident population, crude",Sex,Female,1970,All ages,6.6
-"Deaths per 100,000 resident population, crude",Sex,Female,1980,All ages,5.5
-"Deaths per 100,000 resident population, crude",Sex,Female,1981,All ages,5.8
-"Deaths per 100,000 resident population, crude",Sex,Female,1982,All ages,5.6
-"Deaths per 100,000 resident population, crude",Sex,Female,1983,All ages,5.4
-"Deaths per 100,000 resident population, crude",Sex,Female,1984,All ages,5.4
-"Deaths per 100,000 resident population, crude",Sex,Female,1985,All ages,5.2
-"Deaths per 100,000 resident population, crude",Sex,Female,1986,All ages,5.4
-"Deaths per 100,000 resident population, crude",Sex,Female,1987,All ages,5.2
-"Deaths per 100,000 resident population, crude",Sex,Female,1988,All ages,5
-"Deaths per 100,000 resident population, crude",Sex,Female,1989,All ages,4.8
-"Deaths per 100,000 resident population, crude",Sex,Female,1990,All ages,4.8
-"Deaths per 100,000 resident population, crude",Sex,Female,1991,All ages,4.7
-"Deaths per 100,000 resident population, crude",Sex,Female,1992,All ages,4.6
-"Deaths per 100,000 resident population, crude",Sex,Female,1993,All ages,4.6
-"Deaths per 100,000 resident population, crude",Sex,Female,1994,All ages,4.4
-"Deaths per 100,000 resident population, crude",Sex,Female,1995,All ages,4.3
-"Deaths per 100,000 resident population, crude",Sex,Female,1996,All ages,4.3
-"Deaths per 100,000 resident population, crude",Sex,Female,1997,All ages,4.3
-"Deaths per 100,000 resident population, crude",Sex,Female,1998,All ages,4.3
-"Deaths per 100,000 resident population, crude",Sex,Female,1999,All ages,4
-"Deaths per 100,000 resident population, crude",Sex,Female,2000,All ages,4
-"Deaths per 100,000 resident population, crude",Sex,Female,2001,All ages,4.1
-"Deaths per 100,000 resident population, crude",Sex,Female,2002,All ages,4.3
-"Deaths per 100,000 resident population, crude",Sex,Female,2003,All ages,4.3
-"Deaths per 100,000 resident population, crude",Sex,Female,2004,All ages,4.6
-"Deaths per 100,000 resident population, crude",Sex,Female,2005,All ages,4.5
-"Deaths per 100,000 resident population, crude",Sex,Female,2006,All ages,4.6
-"Deaths per 100,000 resident population, crude",Sex,Female,2007,All ages,4.8
-"Deaths per 100,000 resident population, crude",Sex,Female,2008,All ages,4.9
-"Deaths per 100,000 resident population, crude",Sex,Female,2009,All ages,5
-"Deaths per 100,000 resident population, crude",Sex,Female,2010,All ages,5.2
-"Deaths per 100,000 resident population, crude",Sex,Female,2011,All ages,5.4
-"Deaths per 100,000 resident population, crude",Sex,Female,2012,All ages,5.5
-"Deaths per 100,000 resident population, crude",Sex,Female,2013,All ages,5.7
-"Deaths per 100,000 resident population, crude",Sex,Female,2014,All ages,6
-"Deaths per 100,000 resident population, crude",Sex,Female,2015,All ages,6.2
-"Deaths per 100,000 resident population, crude",Sex,Female,2016,All ages,6.2
-"Deaths per 100,000 resident population, crude",Sex,Female,2017,All ages,6.3
-"Deaths per 100,000 resident population, crude",Sex,Female,2018,All ages,6.4
+UNIT,YEAR,SEX,ESTIMATE
+"Deaths per 100,000 resident population, crude",1950,Male,17.8
+"Deaths per 100,000 resident population, crude",1960,Male,16.5
+"Deaths per 100,000 resident population, crude",1970,Male,16.8
+"Deaths per 100,000 resident population, crude",1980,Male,18.6
+"Deaths per 100,000 resident population, crude",1981,Male,18.7
+"Deaths per 100,000 resident population, crude",1982,Male,19.2
+"Deaths per 100,000 resident population, crude",1983,Male,19.2
+"Deaths per 100,000 resident population, crude",1984,Male,19.8
+"Deaths per 100,000 resident population, crude",1985,Male,20
+"Deaths per 100,000 resident population, crude",1986,Male,20.7
+"Deaths per 100,000 resident population, crude",1987,Male,20.6
+"Deaths per 100,000 resident population, crude",1988,Male,20.2
+"Deaths per 100,000 resident population, crude",1989,Male,20
+"Deaths per 100,000 resident population, crude",1990,Male,20.4
+"Deaths per 100,000 resident population, crude",1991,Male,20.1
+"Deaths per 100,000 resident population, crude",1992,Male,19.5
+"Deaths per 100,000 resident population, crude",1993,Male,19.7
+"Deaths per 100,000 resident population, crude",1994,Male,19.6
+"Deaths per 100,000 resident population, crude",1995,Male,19.5
+"Deaths per 100,000 resident population, crude",1996,Male,19
+"Deaths per 100,000 resident population, crude",1997,Male,18.3
+"Deaths per 100,000 resident population, crude",1998,Male,18.2
+"Deaths per 100,000 resident population, crude",1999,Male,17.1
+"Deaths per 100,000 resident population, crude",2000,Male,17.1
+"Deaths per 100,000 resident population, crude",2001,Male,17.6
+"Deaths per 100,000 resident population, crude",2002,Male,18
+"Deaths per 100,000 resident population, crude",2003,Male,17.7
+"Deaths per 100,000 resident population, crude",2004,Male,17.8
+"Deaths per 100,000 resident population, crude",2005,Male,17.8
+"Deaths per 100,000 resident population, crude",2006,Male,17.9
+"Deaths per 100,000 resident population, crude",2007,Male,18.4
+"Deaths per 100,000 resident population, crude",2008,Male,19
+"Deaths per 100,000 resident population, crude",2009,Male,19.3
+"Deaths per 100,000 resident population, crude",2010,Male,19.9
+"Deaths per 100,000 resident population, crude",2011,Male,20.2
+"Deaths per 100,000 resident population, crude",2012,Male,20.6
+"Deaths per 100,000 resident population, crude",2013,Male,20.6
+"Deaths per 100,000 resident population, crude",2014,Male,21.1
+"Deaths per 100,000 resident population, crude",2015,Male,21.5
+"Deaths per 100,000 resident population, crude",2016,Male,21.8
+"Deaths per 100,000 resident population, crude",2017,Male,22.9
+"Deaths per 100,000 resident population, crude",2018,Male,23.4
+"Deaths per 100,000 resident population, crude",1950,Female,5.1
+"Deaths per 100,000 resident population, crude",1960,Female,4.9
+"Deaths per 100,000 resident population, crude",1970,Female,6.6
+"Deaths per 100,000 resident population, crude",1980,Female,5.5
+"Deaths per 100,000 resident population, crude",1981,Female,5.8
+"Deaths per 100,000 resident population, crude",1982,Female,5.6
+"Deaths per 100,000 resident population, crude",1983,Female,5.4
+"Deaths per 100,000 resident population, crude",1984,Female,5.4
+"Deaths per 100,000 resident population, crude",1985,Female,5.2
+"Deaths per 100,000 resident population, crude",1986,Female,5.4
+"Deaths per 100,000 resident population, crude",1987,Female,5.2
+"Deaths per 100,000 resident population, crude",1988,Female,5
+"Deaths per 100,000 resident population, crude",1989,Female,4.8
+"Deaths per 100,000 resident population, crude",1990,Female,4.8
+"Deaths per 100,000 resident population, crude",1991,Female,4.7
+"Deaths per 100,000 resident population, crude",1992,Female,4.6
+"Deaths per 100,000 resident population, crude",1993,Female,4.6
+"Deaths per 100,000 resident population, crude",1994,Female,4.4
+"Deaths per 100,000 resident population, crude",1995,Female,4.3
+"Deaths per 100,000 resident population, crude",1996,Female,4.3
+"Deaths per 100,000 resident population, crude",1997,Female,4.3
+"Deaths per 100,000 resident population, crude",1998,Female,4.3
+"Deaths per 100,000 resident population, crude",1999,Female,4
+"Deaths per 100,000 resident population, crude",2000,Female,4
+"Deaths per 100,000 resident population, crude",2001,Female,4.1
+"Deaths per 100,000 resident population, crude",2002,Female,4.3
+"Deaths per 100,000 resident population, crude",2003,Female,4.3
+"Deaths per 100,000 resident population, crude",2004,Female,4.6
+"Deaths per 100,000 resident population, crude",2005,Female,4.5
+"Deaths per 100,000 resident population, crude",2006,Female,4.6
+"Deaths per 100,000 resident population, crude",2007,Female,4.8
+"Deaths per 100,000 resident population, crude",2008,Female,4.9
+"Deaths per 100,000 resident population, crude",2009,Female,5
+"Deaths per 100,000 resident population, crude",2010,Female,5.2
+"Deaths per 100,000 resident population, crude",2011,Female,5.4
+"Deaths per 100,000 resident population, crude",2012,Female,5.5
+"Deaths per 100,000 resident population, crude",2013,Female,5.7
+"Deaths per 100,000 resident population, crude",2014,Female,6
+"Deaths per 100,000 resident population, crude",2015,Female,6.2
+"Deaths per 100,000 resident population, crude",2016,Female,6.2
+"Deaths per 100,000 resident population, crude",2017,Female,6.3
+"Deaths per 100,000 resident population, crude",2018,Female,6.4
