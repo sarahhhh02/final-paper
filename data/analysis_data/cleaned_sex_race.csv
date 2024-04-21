@@ -1,685 +1,307 @@
-UNIT,STUB_NAME,STUB_LABEL,YEAR,AGE,ESTIMATE
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1950,All ages,22.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1960,All ages,21.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1970,All ages,20.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1980,All ages,20.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1981,All ages,20.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1982,All ages,21.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1983,All ages,21.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1984,All ages,22.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1985,All ages,22.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1986,All ages,23.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1987,All ages,23
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1988,All ages,22.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1989,All ages,22.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1990,All ages,22.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1991,All ages,22.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1992,All ages,21.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1993,All ages,21.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1994,All ages,21.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1995,All ages,21.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1996,All ages,21.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1997,All ages,20.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1998,All ages,20.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,1999,All ages,19
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2000,All ages,19.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2001,All ages,19.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2002,All ages,20.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2003,All ages,19.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2004,All ages,19.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2005,All ages,19.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2006,All ages,19.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2007,All ages,20.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2008,All ages,21.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2009,All ages,21.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2010,All ages,22
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2011,All ages,22.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2012,All ages,22.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2013,All ages,22.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2014,All ages,23.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2015,All ages,23.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2016,All ages,23.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2017,All ages,25.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: White,2018,All ages,25.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1950,All ages,7.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1960,All ages,8.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1970,All ages,10
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1980,All ages,11.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1981,All ages,11.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1982,All ages,11.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1983,All ages,11.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1984,All ages,11.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1985,All ages,11.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1986,All ages,12.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1987,All ages,12.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1988,All ages,12.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1989,All ages,13
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1990,All ages,12.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1991,All ages,12.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1992,All ages,12.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1993,All ages,12.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1994,All ages,12.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1995,All ages,12.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1996,All ages,11.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1997,All ages,11.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1998,All ages,10.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,1999,All ages,10.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2000,All ages,10
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2001,All ages,9.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2002,All ages,9.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2003,All ages,9.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2004,All ages,9.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2005,All ages,9.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2006,All ages,9.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2007,All ages,8.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2008,All ages,9.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2009,All ages,8.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2010,All ages,9.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2011,All ages,9.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2012,All ages,9.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2013,All ages,9.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2014,All ages,9.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2015,All ages,9.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2016,All ages,10.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2017,All ages,11
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Black or African American,2018,All ages,11.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1950,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1960,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1970,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1980,All ages,19.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1981,All ages,21.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1982,All ages,18.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1983,All ages,20.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1984,All ages,18
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1985,All ages,17.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1986,All ages,20.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1987,All ages,18.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1988,All ages,18.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1989,All ages,17.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1990,All ages,20.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1991,All ages,18.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1992,All ages,16.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1993,All ages,17.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1994,All ages,20.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1995,All ages,17.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1996,All ages,17.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1997,All ages,18.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1998,All ages,17.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,1999,All ages,16.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2000,All ages,16
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2001,All ages,17.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2002,All ages,16.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2003,All ages,16
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2004,All ages,17.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2005,All ages,17.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2006,All ages,16.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2007,All ages,15.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2008,All ages,15.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2009,All ages,14.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2010,All ages,15.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2011,All ages,16.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2012,All ages,17.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2013,All ages,18.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2014,All ages,16.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2015,All ages,18.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2016,All ages,20.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2017,All ages,20.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: American Indian or Alaska Native,2018,All ages,20.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1950,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1960,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1970,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1980,All ages,10.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1981,All ages,9.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1982,All ages,8.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1983,All ages,9.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1984,All ages,9.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1985,All ages,9.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1986,All ages,9.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1987,All ages,10.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1988,All ages,8.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1989,All ages,8.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1990,All ages,9.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1991,All ages,9.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1992,All ages,9.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1993,All ages,9.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1994,All ages,10
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1995,All ages,9.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1996,All ages,8.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1997,All ages,9.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1998,All ages,9.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,1999,All ages,9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2000,All ages,8.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2001,All ages,8.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2002,All ages,8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2003,All ages,8.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2004,All ages,8.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2005,All ages,7.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2006,All ages,7.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2007,All ages,8.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2008,All ages,7.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2009,All ages,8.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2010,All ages,9.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2011,All ages,8.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2012,All ages,9.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2013,All ages,9.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2014,All ages,8.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2015,All ages,9.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2016,All ages,10.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2017,All ages,9.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Male: Asian or Pacific Islander,2018,All ages,10.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1950,All ages,6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1960,All ages,5.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1970,All ages,7.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1980,All ages,6.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1981,All ages,6.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1982,All ages,6.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1983,All ages,6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1984,All ages,6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1985,All ages,5.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1986,All ages,6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1987,All ages,5.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1988,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1989,All ages,5.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1990,All ages,5.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1991,All ages,5.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1992,All ages,5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1993,All ages,5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1994,All ages,4.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1995,All ages,4.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1996,All ages,4.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1997,All ages,4.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1998,All ages,4.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,1999,All ages,4.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2000,All ages,4.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2001,All ages,4.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2002,All ages,4.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2003,All ages,4.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2004,All ages,5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2005,All ages,4.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2006,All ages,5.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2007,All ages,5.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2008,All ages,5.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2009,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2010,All ages,5.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2011,All ages,5.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2012,All ages,6.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2013,All ages,6.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2014,All ages,6.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2015,All ages,6.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2016,All ages,6.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2017,All ages,6.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: White,2018,All ages,7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1950,All ages,1.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1960,All ages,2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1970,All ages,2.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1980,All ages,2.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1981,All ages,2.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1982,All ages,2.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1983,All ages,2.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1984,All ages,2.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1985,All ages,2.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1986,All ages,2.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1987,All ages,2.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1988,All ages,2.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1989,All ages,2.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1990,All ages,2.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1991,All ages,2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1992,All ages,2.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1993,All ages,2.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1994,All ages,2.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1995,All ages,2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1996,All ages,2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1997,All ages,1.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1998,All ages,1.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,1999,All ages,1.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2000,All ages,1.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2001,All ages,1.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2002,All ages,1.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2003,All ages,1.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2004,All ages,1.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2005,All ages,1.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2006,All ages,1.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2007,All ages,1.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2008,All ages,1.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2009,All ages,1.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2010,All ages,1.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2011,All ages,1.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2012,All ages,2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2013,All ages,2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2014,All ages,2.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2015,All ages,2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2016,All ages,2.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2017,All ages,2.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Black or African American,2018,All ages,2.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1950,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1960,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1970,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1980,All ages,4.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1981,All ages,4.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1982,All ages,3.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1983,All ages,4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1984,All ages,3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1985,All ages,4.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1986,All ages,4.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1987,All ages,4.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1988,All ages,3.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1989,All ages,3.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1990,All ages,3.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1991,All ages,3.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1992,All ages,3.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1993,All ages,5.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1994,All ages,3.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1995,All ages,3.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1996,All ages,5.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1997,All ages,4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1998,All ages,4.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,1999,All ages,4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2000,All ages,3.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2001,All ages,3.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2002,All ages,4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2003,All ages,3.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2004,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2005,All ages,4.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2006,All ages,4.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2007,All ages,4.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2008,All ages,4.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2009,All ages,5.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2010,All ages,6.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2011,All ages,5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2012,All ages,4.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2013,All ages,5.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2014,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2015,All ages,6.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2016,All ages,6.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2017,All ages,6.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: American Indian or Alaska Native,2018,All ages,6.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1950,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1960,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1970,All ages,NA
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1980,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1981,All ages,6.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1982,All ages,5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1983,All ages,5.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1984,All ages,5.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1985,All ages,5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1986,All ages,4.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1987,All ages,4.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1988,All ages,4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1989,All ages,4.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1990,All ages,4.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1991,All ages,4.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1992,All ages,4.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1993,All ages,4.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1994,All ages,4.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1995,All ages,4.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1996,All ages,3.9
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1997,All ages,3.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1998,All ages,3.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,1999,All ages,3.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2000,All ages,2.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2001,All ages,2.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2002,All ages,3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2003,All ages,3.1
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2004,All ages,3.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2005,All ages,3.2
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2006,All ages,3.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2007,All ages,3.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2008,All ages,3.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2009,All ages,3.5
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2010,All ages,3.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2011,All ages,3.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2012,All ages,3.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2013,All ages,3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2014,All ages,3.4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2015,All ages,4
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2016,All ages,3.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2017,All ages,3.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race,Female: Asian or Pacific Islander,2018,All ages,3.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race (Single race),Male: White,2018,All ages,25.6
-"Deaths per 100,000 resident population, age-adjusted",Sex and race (Single race),Male: Black or African American,2018,All ages,11.8
-"Deaths per 100,000 resident population, age-adjusted",Sex and race (Single race),Male: American Indian or Alaska Native,2018,All ages,20.3
-"Deaths per 100,000 resident population, age-adjusted",Sex and race (Single race),Female: White,2018,All ages,7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race (Single race),Female: Black or African American,2018,All ages,2.7
-"Deaths per 100,000 resident population, age-adjusted",Sex and race (Single race),Female: American Indian or Alaska Native,2018,All ages,7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1950,All ages,19
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1960,All ages,17.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1970,All ages,18
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1980,All ages,19.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1981,All ages,20
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1982,All ages,20.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1983,All ages,20.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1984,All ages,21.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1985,All ages,21.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1986,All ages,22.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1987,All ages,22.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1988,All ages,21.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1989,All ages,21.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1990,All ages,22
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1991,All ages,21.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1992,All ages,21.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1993,All ages,21.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1994,All ages,21.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1995,All ages,21.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1996,All ages,20.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1997,All ages,20
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1998,All ages,19.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,1999,All ages,18.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2000,All ages,18.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2001,All ages,19.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2002,All ages,20
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2003,All ages,19.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2004,All ages,19.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2005,All ages,19.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2006,All ages,20
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2007,All ages,20.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2008,All ages,21.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2009,All ages,21.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2010,All ages,22.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2011,All ages,23
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2012,All ages,23.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2013,All ages,23.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2014,All ages,24.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2015,All ages,24.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2016,All ages,24.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2017,All ages,26.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: White,2018,All ages,26.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1950,All ages,6.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1960,All ages,6.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1970,All ages,8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1980,All ages,10.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1981,All ages,10.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1982,All ages,10.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1983,All ages,10
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1984,All ages,10.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1985,All ages,11
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1986,All ages,11.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1987,All ages,11.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1988,All ages,11.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1989,All ages,12.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1990,All ages,12
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1991,All ages,12
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1992,All ages,11.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1993,All ages,12.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1994,All ages,12.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1995,All ages,11.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1996,All ages,11.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1997,All ages,10.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1998,All ages,9.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,1999,All ages,9.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2000,All ages,9.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2001,All ages,9.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2002,All ages,9.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2003,All ages,8.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2004,All ages,9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2005,All ages,8.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2006,All ages,8.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2007,All ages,8.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2008,All ages,9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2009,All ages,8.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2010,All ages,8.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2011,All ages,9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2012,All ages,9.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2013,All ages,9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2014,All ages,9.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2015,All ages,9.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2016,All ages,10.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2017,All ages,11
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Black or African American,2018,All ages,11.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1950,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1960,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1970,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1980,All ages,20.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1981,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1982,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1983,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1984,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1985,All ages,20.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1986,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1987,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1988,All ages,20.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1989,All ages,19.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1990,All ages,20.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1991,All ages,18.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1992,All ages,17.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1993,All ages,17.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1994,All ages,21.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1995,All ages,18
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1996,All ages,17.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1997,All ages,18.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1998,All ages,18.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,1999,All ages,16.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2000,All ages,15.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2001,All ages,16.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2002,All ages,16.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2003,All ages,16
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2004,All ages,17.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2005,All ages,17.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2006,All ages,16.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2007,All ages,16.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2008,All ages,15.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2009,All ages,15.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2010,All ages,16.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2011,All ages,16.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2012,All ages,17.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2013,All ages,17.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2014,All ages,16
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2015,All ages,18.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2016,All ages,20.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2017,All ages,20.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: American Indian or Alaska Native,2018,All ages,21.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1950,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1960,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1970,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1980,All ages,8.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1981,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1982,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1983,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1984,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1985,All ages,8.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1986,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1987,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1988,All ages,7.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1989,All ages,7.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1990,All ages,8.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1991,All ages,8.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1992,All ages,8.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1993,All ages,8.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1994,All ages,9.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1995,All ages,9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1996,All ages,8.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1997,All ages,8.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1998,All ages,8.7
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,1999,All ages,8.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2000,All ages,7.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2001,All ages,7.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2002,All ages,7.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2003,All ages,7.9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2004,All ages,7.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2005,All ages,7.1
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2006,All ages,7.8
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2007,All ages,8.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2008,All ages,7.5
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2009,All ages,8.4
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2010,All ages,9.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2011,All ages,8.6
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2012,All ages,9.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2013,All ages,9.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2014,All ages,9
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2015,All ages,9.2
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2016,All ages,10.3
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2017,All ages,10
-"Deaths per 100,000 resident population, crude",Sex and race,Male: Asian or Pacific Islander,2018,All ages,10.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1950,All ages,5.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1960,All ages,5.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1970,All ages,7.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1980,All ages,5.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1981,All ages,6.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1982,All ages,6.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1983,All ages,5.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1984,All ages,6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1985,All ages,5.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1986,All ages,5.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1987,All ages,5.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1988,All ages,5.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1989,All ages,5.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1990,All ages,5.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1991,All ages,5.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1992,All ages,5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1993,All ages,5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1994,All ages,4.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1995,All ages,4.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1996,All ages,4.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1997,All ages,4.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1998,All ages,4.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,1999,All ages,4.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2000,All ages,4.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2001,All ages,4.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2002,All ages,4.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2003,All ages,4.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2004,All ages,5.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2005,All ages,5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2006,All ages,5.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2007,All ages,5.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2008,All ages,5.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2009,All ages,5.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2010,All ages,5.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2011,All ages,6.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2012,All ages,6.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2013,All ages,6.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2014,All ages,6.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2015,All ages,7.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2016,All ages,7.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2017,All ages,7.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: White,2018,All ages,7.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1950,All ages,1.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1960,All ages,1.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1970,All ages,2.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1980,All ages,2.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1981,All ages,2.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1982,All ages,2.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1983,All ages,2.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1984,All ages,2.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1985,All ages,2.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1986,All ages,2.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1987,All ages,2.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1988,All ages,2.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1989,All ages,2.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1990,All ages,2.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1991,All ages,1.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1992,All ages,2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1993,All ages,2.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1994,All ages,2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1995,All ages,2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1996,All ages,1.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1997,All ages,1.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1998,All ages,1.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,1999,All ages,1.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2000,All ages,1.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2001,All ages,1.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2002,All ages,1.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2003,All ages,1.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2004,All ages,1.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2005,All ages,1.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2006,All ages,1.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2007,All ages,1.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2008,All ages,1.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2009,All ages,1.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2010,All ages,1.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2011,All ages,1.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2012,All ages,2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2013,All ages,2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2014,All ages,2.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2015,All ages,2.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2016,All ages,2.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2017,All ages,2.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Black or African American,2018,All ages,2.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1950,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1960,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1970,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1980,All ages,4.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1981,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1982,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1983,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1984,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1985,All ages,4.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1986,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1987,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1988,All ages,3.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1989,All ages,3.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1990,All ages,3.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1991,All ages,3.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1992,All ages,3.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1993,All ages,5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1994,All ages,3.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1995,All ages,3.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1996,All ages,5.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1997,All ages,3.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1998,All ages,4.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,1999,All ages,4.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2000,All ages,4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2001,All ages,4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2002,All ages,4.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2003,All ages,3.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2004,All ages,5.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2005,All ages,4.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2006,All ages,4.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2007,All ages,4.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2008,All ages,5.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2009,All ages,5.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2010,All ages,5.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2011,All ages,5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2012,All ages,4.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2013,All ages,5.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2014,All ages,5.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2015,All ages,6.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2016,All ages,6.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2017,All ages,6.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: American Indian or Alaska Native,2018,All ages,6.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1950,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1960,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1970,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1980,All ages,4.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1981,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1982,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1983,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1984,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1985,All ages,4.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1986,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1987,All ages,NA
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1988,All ages,3.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1989,All ages,3.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1990,All ages,3.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1991,All ages,3.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1992,All ages,3.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1993,All ages,3.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1994,All ages,3.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1995,All ages,3.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1996,All ages,3.6
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1997,All ages,3.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1998,All ages,3.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,1999,All ages,3.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2000,All ages,2.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2001,All ages,2.8
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2002,All ages,2.9
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2003,All ages,3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2004,All ages,3.3
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2005,All ages,3.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2006,All ages,3.2
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2007,All ages,3.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2008,All ages,3.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2009,All ages,3.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2010,All ages,3.4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2011,All ages,3.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2012,All ages,3.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2013,All ages,3.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2014,All ages,3.5
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2015,All ages,4.1
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2016,All ages,3.7
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2017,All ages,4
-"Deaths per 100,000 resident population, crude",Sex and race,Female: Asian or Pacific Islander,2018,All ages,4
-"Deaths per 100,000 resident population, crude",Sex and race (Single race),Male: White,2018,All ages,26.9
-"Deaths per 100,000 resident population, crude",Sex and race (Single race),Male: American Indian or Alaska Native,2018,All ages,21.1
-"Deaths per 100,000 resident population, crude",Sex and race (Single race),Female: White,2018,All ages,7.3
-"Deaths per 100,000 resident population, crude",Sex and race (Single race),Female: Black or African American,2018,All ages,11.9
-"Deaths per 100,000 resident population, crude",Sex and race (Single race),Female: Black or African American,2018,All ages,2.8
-"Deaths per 100,000 resident population, crude",Sex and race (Single race),Female: American Indian or Alaska Native,2018,All ages,7.2
+UNIT,YEAR,SEX,RACE,ESTIMATE
+"Deaths per 100,000 resident population, crude",1950,Male,White,19
+"Deaths per 100,000 resident population, crude",1960,Male,White,17.6
+"Deaths per 100,000 resident population, crude",1970,Male,White,18
+"Deaths per 100,000 resident population, crude",1980,Male,White,19.9
+"Deaths per 100,000 resident population, crude",1981,Male,White,20
+"Deaths per 100,000 resident population, crude",1982,Male,White,20.7
+"Deaths per 100,000 resident population, crude",1983,Male,White,20.7
+"Deaths per 100,000 resident population, crude",1984,Male,White,21.3
+"Deaths per 100,000 resident population, crude",1985,Male,White,21.6
+"Deaths per 100,000 resident population, crude",1986,Male,White,22.4
+"Deaths per 100,000 resident population, crude",1987,Male,White,22.2
+"Deaths per 100,000 resident population, crude",1988,Male,White,21.8
+"Deaths per 100,000 resident population, crude",1989,Male,White,21.5
+"Deaths per 100,000 resident population, crude",1990,Male,White,22
+"Deaths per 100,000 resident population, crude",1991,Male,White,21.7
+"Deaths per 100,000 resident population, crude",1992,Male,White,21.1
+"Deaths per 100,000 resident population, crude",1993,Male,White,21.2
+"Deaths per 100,000 resident population, crude",1994,Male,White,21.1
+"Deaths per 100,000 resident population, crude",1995,Male,White,21.1
+"Deaths per 100,000 resident population, crude",1996,Male,White,20.6
+"Deaths per 100,000 resident population, crude",1997,Male,White,20
+"Deaths per 100,000 resident population, crude",1998,Male,White,19.9
+"Deaths per 100,000 resident population, crude",1999,Male,White,18.7
+"Deaths per 100,000 resident population, crude",2000,Male,White,18.8
+"Deaths per 100,000 resident population, crude",2001,Male,White,19.5
+"Deaths per 100,000 resident population, crude",2002,Male,White,20
+"Deaths per 100,000 resident population, crude",2003,Male,White,19.7
+"Deaths per 100,000 resident population, crude",2004,Male,White,19.7
+"Deaths per 100,000 resident population, crude",2005,Male,White,19.9
+"Deaths per 100,000 resident population, crude",2006,Male,White,20
+"Deaths per 100,000 resident population, crude",2007,Male,White,20.7
+"Deaths per 100,000 resident population, crude",2008,Male,White,21.5
+"Deaths per 100,000 resident population, crude",2009,Male,White,21.9
+"Deaths per 100,000 resident population, crude",2010,Male,White,22.6
+"Deaths per 100,000 resident population, crude",2011,Male,White,23
+"Deaths per 100,000 resident population, crude",2012,Male,White,23.3
+"Deaths per 100,000 resident population, crude",2013,Male,White,23.4
+"Deaths per 100,000 resident population, crude",2014,Male,White,24.2
+"Deaths per 100,000 resident population, crude",2015,Male,White,24.6
+"Deaths per 100,000 resident population, crude",2016,Male,White,24.8
+"Deaths per 100,000 resident population, crude",2017,Male,White,26.1
+"Deaths per 100,000 resident population, crude",2018,Male,White,26.6
+"Deaths per 100,000 resident population, crude",1950,Male,Black or African American,6.3
+"Deaths per 100,000 resident population, crude",1960,Male,Black or African American,6.4
+"Deaths per 100,000 resident population, crude",1970,Male,Black or African American,8
+"Deaths per 100,000 resident population, crude",1980,Male,Black or African American,10.3
+"Deaths per 100,000 resident population, crude",1981,Male,Black or African American,10.3
+"Deaths per 100,000 resident population, crude",1982,Male,Black or African American,10.2
+"Deaths per 100,000 resident population, crude",1983,Male,Black or African American,10
+"Deaths per 100,000 resident population, crude",1984,Male,Black or African American,10.7
+"Deaths per 100,000 resident population, crude",1985,Male,Black or African American,11
+"Deaths per 100,000 resident population, crude",1986,Male,Black or African American,11.2
+"Deaths per 100,000 resident population, crude",1987,Male,Black or African American,11.8
+"Deaths per 100,000 resident population, crude",1988,Male,Black or African American,11.7
+"Deaths per 100,000 resident population, crude",1989,Male,Black or African American,12.4
+"Deaths per 100,000 resident population, crude",1990,Male,Black or African American,12
+"Deaths per 100,000 resident population, crude",1991,Male,Black or African American,12
+"Deaths per 100,000 resident population, crude",1992,Male,Black or African American,11.9
+"Deaths per 100,000 resident population, crude",1993,Male,Black or African American,12.3
+"Deaths per 100,000 resident population, crude",1994,Male,Black or African American,12.2
+"Deaths per 100,000 resident population, crude",1995,Male,Black or African American,11.7
+"Deaths per 100,000 resident population, crude",1996,Male,Black or African American,11.1
+"Deaths per 100,000 resident population, crude",1997,Male,Black or African American,10.6
+"Deaths per 100,000 resident population, crude",1998,Male,Black or African American,9.8
+"Deaths per 100,000 resident population, crude",1999,Male,Black or African American,9.6
+"Deaths per 100,000 resident population, crude",2000,Male,Black or African American,9.4
+"Deaths per 100,000 resident population, crude",2001,Male,Black or African American,9.2
+"Deaths per 100,000 resident population, crude",2002,Male,Black or African American,9.1
+"Deaths per 100,000 resident population, crude",2003,Male,Black or African American,8.8
+"Deaths per 100,000 resident population, crude",2004,Male,Black or African American,9
+"Deaths per 100,000 resident population, crude",2005,Male,Black or African American,8.7
+"Deaths per 100,000 resident population, crude",2006,Male,Black or African American,8.8
+"Deaths per 100,000 resident population, crude",2007,Male,Black or African American,8.3
+"Deaths per 100,000 resident population, crude",2008,Male,Black or African American,9
+"Deaths per 100,000 resident population, crude",2009,Male,Black or African American,8.5
+"Deaths per 100,000 resident population, crude",2010,Male,Black or African American,8.7
+"Deaths per 100,000 resident population, crude",2011,Male,Black or African American,9
+"Deaths per 100,000 resident population, crude",2012,Male,Black or African American,9.2
+"Deaths per 100,000 resident population, crude",2013,Male,Black or African American,9
+"Deaths per 100,000 resident population, crude",2014,Male,Black or African American,9.2
+"Deaths per 100,000 resident population, crude",2015,Male,Black or African American,9.4
+"Deaths per 100,000 resident population, crude",2016,Male,Black or African American,10.1
+"Deaths per 100,000 resident population, crude",2017,Male,Black or African American,11
+"Deaths per 100,000 resident population, crude",2018,Male,Black or African American,11.6
+"Deaths per 100,000 resident population, crude",1980,Male,American Indian or Alaska Native,20.9
+"Deaths per 100,000 resident population, crude",1985,Male,American Indian or Alaska Native,20.3
+"Deaths per 100,000 resident population, crude",1988,Male,American Indian or Alaska Native,20.2
+"Deaths per 100,000 resident population, crude",1989,Male,American Indian or Alaska Native,19.9
+"Deaths per 100,000 resident population, crude",1990,Male,American Indian or Alaska Native,20.9
+"Deaths per 100,000 resident population, crude",1991,Male,American Indian or Alaska Native,18.4
+"Deaths per 100,000 resident population, crude",1992,Male,American Indian or Alaska Native,17.1
+"Deaths per 100,000 resident population, crude",1993,Male,American Indian or Alaska Native,17.5
+"Deaths per 100,000 resident population, crude",1994,Male,American Indian or Alaska Native,21.7
+"Deaths per 100,000 resident population, crude",1995,Male,American Indian or Alaska Native,18
+"Deaths per 100,000 resident population, crude",1996,Male,American Indian or Alaska Native,17.9
+"Deaths per 100,000 resident population, crude",1997,Male,American Indian or Alaska Native,18.5
+"Deaths per 100,000 resident population, crude",1998,Male,American Indian or Alaska Native,18.1
+"Deaths per 100,000 resident population, crude",1999,Male,American Indian or Alaska Native,16.5
+"Deaths per 100,000 resident population, crude",2000,Male,American Indian or Alaska Native,15.9
+"Deaths per 100,000 resident population, crude",2001,Male,American Indian or Alaska Native,16.8
+"Deaths per 100,000 resident population, crude",2002,Male,American Indian or Alaska Native,16.1
+"Deaths per 100,000 resident population, crude",2003,Male,American Indian or Alaska Native,16
+"Deaths per 100,000 resident population, crude",2004,Male,American Indian or Alaska Native,17.9
+"Deaths per 100,000 resident population, crude",2005,Male,American Indian or Alaska Native,17.6
+"Deaths per 100,000 resident population, crude",2006,Male,American Indian or Alaska Native,16.8
+"Deaths per 100,000 resident population, crude",2007,Male,American Indian or Alaska Native,16.2
+"Deaths per 100,000 resident population, crude",2008,Male,American Indian or Alaska Native,15.4
+"Deaths per 100,000 resident population, crude",2009,Male,American Indian or Alaska Native,15.1
+"Deaths per 100,000 resident population, crude",2010,Male,American Indian or Alaska Native,16.1
+"Deaths per 100,000 resident population, crude",2011,Male,American Indian or Alaska Native,16.1
+"Deaths per 100,000 resident population, crude",2012,Male,American Indian or Alaska Native,17.5
+"Deaths per 100,000 resident population, crude",2013,Male,American Indian or Alaska Native,17.9
+"Deaths per 100,000 resident population, crude",2014,Male,American Indian or Alaska Native,16
+"Deaths per 100,000 resident population, crude",2015,Male,American Indian or Alaska Native,18.5
+"Deaths per 100,000 resident population, crude",2016,Male,American Indian or Alaska Native,20.7
+"Deaths per 100,000 resident population, crude",2017,Male,American Indian or Alaska Native,20.4
+"Deaths per 100,000 resident population, crude",2018,Male,American Indian or Alaska Native,21.4
+"Deaths per 100,000 resident population, crude",1980,Male,Asian or Pacific Islander,8.8
+"Deaths per 100,000 resident population, crude",1985,Male,Asian or Pacific Islander,8.4
+"Deaths per 100,000 resident population, crude",1988,Male,Asian or Pacific Islander,7.7
+"Deaths per 100,000 resident population, crude",1989,Male,Asian or Pacific Islander,7.7
+"Deaths per 100,000 resident population, crude",1990,Male,Asian or Pacific Islander,8.7
+"Deaths per 100,000 resident population, crude",1991,Male,Asian or Pacific Islander,8.7
+"Deaths per 100,000 resident population, crude",1992,Male,Asian or Pacific Islander,8.3
+"Deaths per 100,000 resident population, crude",1993,Male,Asian or Pacific Islander,8.8
+"Deaths per 100,000 resident population, crude",1994,Male,Asian or Pacific Islander,9.3
+"Deaths per 100,000 resident population, crude",1995,Male,Asian or Pacific Islander,9
+"Deaths per 100,000 resident population, crude",1996,Male,Asian or Pacific Islander,8.3
+"Deaths per 100,000 resident population, crude",1997,Male,Asian or Pacific Islander,8.8
+"Deaths per 100,000 resident population, crude",1998,Male,Asian or Pacific Islander,8.7
+"Deaths per 100,000 resident population, crude",1999,Male,Asian or Pacific Islander,8.5
+"Deaths per 100,000 resident population, crude",2000,Male,Asian or Pacific Islander,7.9
+"Deaths per 100,000 resident population, crude",2001,Male,Asian or Pacific Islander,7.6
+"Deaths per 100,000 resident population, crude",2002,Male,Asian or Pacific Islander,7.5
+"Deaths per 100,000 resident population, crude",2003,Male,Asian or Pacific Islander,7.9
+"Deaths per 100,000 resident population, crude",2004,Male,Asian or Pacific Islander,7.8
+"Deaths per 100,000 resident population, crude",2005,Male,Asian or Pacific Islander,7.1
+"Deaths per 100,000 resident population, crude",2006,Male,Asian or Pacific Islander,7.8
+"Deaths per 100,000 resident population, crude",2007,Male,Asian or Pacific Islander,8.4
+"Deaths per 100,000 resident population, crude",2008,Male,Asian or Pacific Islander,7.5
+"Deaths per 100,000 resident population, crude",2009,Male,Asian or Pacific Islander,8.4
+"Deaths per 100,000 resident population, crude",2010,Male,Asian or Pacific Islander,9.3
+"Deaths per 100,000 resident population, crude",2011,Male,Asian or Pacific Islander,8.6
+"Deaths per 100,000 resident population, crude",2012,Male,Asian or Pacific Islander,9.3
+"Deaths per 100,000 resident population, crude",2013,Male,Asian or Pacific Islander,9.2
+"Deaths per 100,000 resident population, crude",2014,Male,Asian or Pacific Islander,9
+"Deaths per 100,000 resident population, crude",2015,Male,Asian or Pacific Islander,9.2
+"Deaths per 100,000 resident population, crude",2016,Male,Asian or Pacific Islander,10.3
+"Deaths per 100,000 resident population, crude",2017,Male,Asian or Pacific Islander,10
+"Deaths per 100,000 resident population, crude",2018,Male,Asian or Pacific Islander,10.6
+"Deaths per 100,000 resident population, crude",1950,Female,White,5.5
+"Deaths per 100,000 resident population, crude",1960,Female,White,5.3
+"Deaths per 100,000 resident population, crude",1970,Female,White,7.1
+"Deaths per 100,000 resident population, crude",1980,Female,White,5.9
+"Deaths per 100,000 resident population, crude",1981,Female,White,6.2
+"Deaths per 100,000 resident population, crude",1982,Female,White,6.1
+"Deaths per 100,000 resident population, crude",1983,Female,White,5.9
+"Deaths per 100,000 resident population, crude",1984,Female,White,6
+"Deaths per 100,000 resident population, crude",1985,Female,White,5.6
+"Deaths per 100,000 resident population, crude",1986,Female,White,5.9
+"Deaths per 100,000 resident population, crude",1987,Female,White,5.8
+"Deaths per 100,000 resident population, crude",1988,Female,White,5.5
+"Deaths per 100,000 resident population, crude",1989,Female,White,5.3
+"Deaths per 100,000 resident population, crude",1990,Female,White,5.3
+"Deaths per 100,000 resident population, crude",1991,Female,White,5.1
+"Deaths per 100,000 resident population, crude",1992,Female,White,5
+"Deaths per 100,000 resident population, crude",1993,Female,White,5
+"Deaths per 100,000 resident population, crude",1994,Female,White,4.9
+"Deaths per 100,000 resident population, crude",1995,Female,White,4.8
+"Deaths per 100,000 resident population, crude",1996,Female,White,4.7
+"Deaths per 100,000 resident population, crude",1997,Female,White,4.8
+"Deaths per 100,000 resident population, crude",1998,Female,White,4.8
+"Deaths per 100,000 resident population, crude",1999,Female,White,4.5
+"Deaths per 100,000 resident population, crude",2000,Female,White,4.4
+"Deaths per 100,000 resident population, crude",2001,Female,White,4.6
+"Deaths per 100,000 resident population, crude",2002,Female,White,4.8
+"Deaths per 100,000 resident population, crude",2003,Female,White,4.8
+"Deaths per 100,000 resident population, crude",2004,Female,White,5.2
+"Deaths per 100,000 resident population, crude",2005,Female,White,5
+"Deaths per 100,000 resident population, crude",2006,Female,White,5.3
+"Deaths per 100,000 resident population, crude",2007,Female,White,5.4
+"Deaths per 100,000 resident population, crude",2008,Female,White,5.6
+"Deaths per 100,000 resident population, crude",2009,Female,White,5.7
+"Deaths per 100,000 resident population, crude",2010,Female,White,5.9
+"Deaths per 100,000 resident population, crude",2011,Female,White,6.1
+"Deaths per 100,000 resident population, crude",2012,Female,White,6.3
+"Deaths per 100,000 resident population, crude",2013,Female,White,6.5
+"Deaths per 100,000 resident population, crude",2014,Female,White,6.9
+"Deaths per 100,000 resident population, crude",2015,Female,White,7.2
+"Deaths per 100,000 resident population, crude",2016,Female,White,7.2
+"Deaths per 100,000 resident population, crude",2017,Female,White,7.1
+"Deaths per 100,000 resident population, crude",2018,Female,White,7.2
+"Deaths per 100,000 resident population, crude",1950,Female,Black or African American,1.5
+"Deaths per 100,000 resident population, crude",1960,Female,Black or African American,1.6
+"Deaths per 100,000 resident population, crude",1970,Female,Black or African American,2.6
+"Deaths per 100,000 resident population, crude",1980,Female,Black or African American,2.2
+"Deaths per 100,000 resident population, crude",1981,Female,Black or African American,2.4
+"Deaths per 100,000 resident population, crude",1982,Female,Black or African American,2.2
+"Deaths per 100,000 resident population, crude",1983,Female,Black or African American,2.1
+"Deaths per 100,000 resident population, crude",1984,Female,Black or African American,2.2
+"Deaths per 100,000 resident population, crude",1985,Female,Black or African American,2.1
+"Deaths per 100,000 resident population, crude",1986,Female,Black or African American,2.3
+"Deaths per 100,000 resident population, crude",1987,Female,Black or African American,2.1
+"Deaths per 100,000 resident population, crude",1988,Female,Black or African American,2.4
+"Deaths per 100,000 resident population, crude",1989,Female,Black or African American,2.4
+"Deaths per 100,000 resident population, crude",1990,Female,Black or African American,2.3
+"Deaths per 100,000 resident population, crude",1991,Female,Black or African American,1.9
+"Deaths per 100,000 resident population, crude",1992,Female,Black or African American,2
+"Deaths per 100,000 resident population, crude",1993,Female,Black or African American,2.1
+"Deaths per 100,000 resident population, crude",1994,Female,Black or African American,2
+"Deaths per 100,000 resident population, crude",1995,Female,Black or African American,2
+"Deaths per 100,000 resident population, crude",1996,Female,Black or African American,1.9
+"Deaths per 100,000 resident population, crude",1997,Female,Black or African American,1.8
+"Deaths per 100,000 resident population, crude",1998,Female,Black or African American,1.7
+"Deaths per 100,000 resident population, crude",1999,Female,Black or African American,1.6
+"Deaths per 100,000 resident population, crude",2000,Female,Black or African American,1.7
+"Deaths per 100,000 resident population, crude",2001,Female,Black or African American,1.7
+"Deaths per 100,000 resident population, crude",2002,Female,Black or African American,1.5
+"Deaths per 100,000 resident population, crude",2003,Female,Black or African American,1.8
+"Deaths per 100,000 resident population, crude",2004,Female,Black or African American,1.8
+"Deaths per 100,000 resident population, crude",2005,Female,Black or African American,1.8
+"Deaths per 100,000 resident population, crude",2006,Female,Black or African American,1.4
+"Deaths per 100,000 resident population, crude",2007,Female,Black or African American,1.7
+"Deaths per 100,000 resident population, crude",2008,Female,Black or African American,1.6
+"Deaths per 100,000 resident population, crude",2009,Female,Black or African American,1.8
+"Deaths per 100,000 resident population, crude",2010,Female,Black or African American,1.8
+"Deaths per 100,000 resident population, crude",2011,Female,Black or African American,1.9
+"Deaths per 100,000 resident population, crude",2012,Female,Black or African American,2
+"Deaths per 100,000 resident population, crude",2013,Female,Black or African American,2
+"Deaths per 100,000 resident population, crude",2014,Female,Black or African American,2.1
+"Deaths per 100,000 resident population, crude",2015,Female,Black or African American,2.1
+"Deaths per 100,000 resident population, crude",2016,Female,Black or African American,2.4
+"Deaths per 100,000 resident population, crude",2017,Female,Black or African American,2.7
+"Deaths per 100,000 resident population, crude",2018,Female,Black or African American,2.8
+"Deaths per 100,000 resident population, crude",1980,Female,American Indian or Alaska Native,4.7
+"Deaths per 100,000 resident population, crude",1985,Female,American Indian or Alaska Native,4.4
+"Deaths per 100,000 resident population, crude",1988,Female,American Indian or Alaska Native,3.7
+"Deaths per 100,000 resident population, crude",1989,Female,American Indian or Alaska Native,3.5
+"Deaths per 100,000 resident population, crude",1990,Female,American Indian or Alaska Native,3.7
+"Deaths per 100,000 resident population, crude",1991,Female,American Indian or Alaska Native,3.5
+"Deaths per 100,000 resident population, crude",1992,Female,American Indian or Alaska Native,3.7
+"Deaths per 100,000 resident population, crude",1993,Female,American Indian or Alaska Native,5
+"Deaths per 100,000 resident population, crude",1994,Female,American Indian or Alaska Native,3.8
+"Deaths per 100,000 resident population, crude",1995,Female,American Indian or Alaska Native,3.8
+"Deaths per 100,000 resident population, crude",1996,Female,American Indian or Alaska Native,5.1
+"Deaths per 100,000 resident population, crude",1997,Female,American Indian or Alaska Native,3.7
+"Deaths per 100,000 resident population, crude",1998,Female,American Indian or Alaska Native,4.7
+"Deaths per 100,000 resident population, crude",1999,Female,American Indian or Alaska Native,4.1
+"Deaths per 100,000 resident population, crude",2000,Female,American Indian or Alaska Native,4
+"Deaths per 100,000 resident population, crude",2001,Female,American Indian or Alaska Native,4
+"Deaths per 100,000 resident population, crude",2002,Female,American Indian or Alaska Native,4.1
+"Deaths per 100,000 resident population, crude",2003,Female,American Indian or Alaska Native,3.4
+"Deaths per 100,000 resident population, crude",2004,Female,American Indian or Alaska Native,5.7
+"Deaths per 100,000 resident population, crude",2005,Female,American Indian or Alaska Native,4.4
+"Deaths per 100,000 resident population, crude",2006,Female,American Indian or Alaska Native,4.7
+"Deaths per 100,000 resident population, crude",2007,Female,American Indian or Alaska Native,4.3
+"Deaths per 100,000 resident population, crude",2008,Female,American Indian or Alaska Native,5.1
+"Deaths per 100,000 resident population, crude",2009,Female,American Indian or Alaska Native,5.6
+"Deaths per 100,000 resident population, crude",2010,Female,American Indian or Alaska Native,5.9
+"Deaths per 100,000 resident population, crude",2011,Female,American Indian or Alaska Native,5
+"Deaths per 100,000 resident population, crude",2012,Female,American Indian or Alaska Native,4.5
+"Deaths per 100,000 resident population, crude",2013,Female,American Indian or Alaska Native,5.4
+"Deaths per 100,000 resident population, crude",2014,Female,American Indian or Alaska Native,5.6
+"Deaths per 100,000 resident population, crude",2015,Female,American Indian or Alaska Native,6.6
+"Deaths per 100,000 resident population, crude",2016,Female,American Indian or Alaska Native,6.4
+"Deaths per 100,000 resident population, crude",2017,Female,American Indian or Alaska Native,6.8
+"Deaths per 100,000 resident population, crude",2018,Female,American Indian or Alaska Native,6.8
+"Deaths per 100,000 resident population, crude",1980,Female,Asian or Pacific Islander,4.7
+"Deaths per 100,000 resident population, crude",1985,Female,Asian or Pacific Islander,4.3
+"Deaths per 100,000 resident population, crude",1988,Female,Asian or Pacific Islander,3.2
+"Deaths per 100,000 resident population, crude",1989,Female,Asian or Pacific Islander,3.9
+"Deaths per 100,000 resident population, crude",1990,Female,Asian or Pacific Islander,3.4
+"Deaths per 100,000 resident population, crude",1991,Female,Asian or Pacific Islander,3.5
+"Deaths per 100,000 resident population, crude",1992,Female,Asian or Pacific Islander,3.8
+"Deaths per 100,000 resident population, crude",1993,Female,Asian or Pacific Islander,3.8
+"Deaths per 100,000 resident population, crude",1994,Female,Asian or Pacific Islander,3.8
+"Deaths per 100,000 resident population, crude",1995,Female,Asian or Pacific Islander,3.7
+"Deaths per 100,000 resident population, crude",1996,Female,Asian or Pacific Islander,3.6
+"Deaths per 100,000 resident population, crude",1997,Female,Asian or Pacific Islander,3.4
+"Deaths per 100,000 resident population, crude",1998,Female,Asian or Pacific Islander,3.2
+"Deaths per 100,000 resident population, crude",1999,Female,Asian or Pacific Islander,3.3
+"Deaths per 100,000 resident population, crude",2000,Female,Asian or Pacific Islander,2.7
+"Deaths per 100,000 resident population, crude",2001,Female,Asian or Pacific Islander,2.8
+"Deaths per 100,000 resident population, crude",2002,Female,Asian or Pacific Islander,2.9
+"Deaths per 100,000 resident population, crude",2003,Female,Asian or Pacific Islander,3
+"Deaths per 100,000 resident population, crude",2004,Female,Asian or Pacific Islander,3.3
+"Deaths per 100,000 resident population, crude",2005,Female,Asian or Pacific Islander,3.1
+"Deaths per 100,000 resident population, crude",2006,Female,Asian or Pacific Islander,3.2
+"Deaths per 100,000 resident population, crude",2007,Female,Asian or Pacific Islander,3.4
+"Deaths per 100,000 resident population, crude",2008,Female,Asian or Pacific Islander,3.5
+"Deaths per 100,000 resident population, crude",2009,Female,Asian or Pacific Islander,3.5
+"Deaths per 100,000 resident population, crude",2010,Female,Asian or Pacific Islander,3.4
+"Deaths per 100,000 resident population, crude",2011,Female,Asian or Pacific Islander,3.5
+"Deaths per 100,000 resident population, crude",2012,Female,Asian or Pacific Islander,3.7
+"Deaths per 100,000 resident population, crude",2013,Female,Asian or Pacific Islander,3.1
+"Deaths per 100,000 resident population, crude",2014,Female,Asian or Pacific Islander,3.5
+"Deaths per 100,000 resident population, crude",2015,Female,Asian or Pacific Islander,4.1
+"Deaths per 100,000 resident population, crude",2016,Female,Asian or Pacific Islander,3.7
+"Deaths per 100,000 resident population, crude",2017,Female,Asian or Pacific Islander,4
+"Deaths per 100,000 resident population, crude",2018,Female,Asian or Pacific Islander,4
+"Deaths per 100,000 resident population, crude",2018,Male,White,26.9
+"Deaths per 100,000 resident population, crude",2018,Male,American Indian or Alaska Native,21.1
+"Deaths per 100,000 resident population, crude",2018,Female,White,7.3
+"Deaths per 100,000 resident population, crude",2018,Female,Black or African American,11.9
+"Deaths per 100,000 resident population, crude",2018,Female,Black or African American,2.8
+"Deaths per 100,000 resident population, crude",2018,Female,American Indian or Alaska Native,7.2
