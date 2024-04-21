@@ -1,8 +1,8 @@
-# Suicide Rates in Canada
+# Trends in Suicide Rates in the United States Population between selected 1950-2018
 
 ## Overview
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
+This repo provides 
 
 
 ## File Structure
@@ -23,8 +23,8 @@ Aspects of the code were written with the help of the auto-complete tool, Codriv
 
 ## Some checks
 
-- [ ] Change the rproj file name so that it's not starter_folder.Rproj
-- [ ] Change the README title so that it's not Starter folder
+- [O] Change the rproj file name so that it's not starter_folder.Rproj
+- [O] Change the README title so that it's not Starter folder
 - [ ] Remove files that you're not using
 - [ ] Update comments in R scripts
 - [ ] Remove this checklist
